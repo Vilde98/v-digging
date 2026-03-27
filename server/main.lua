@@ -11,13 +11,13 @@ local function LogToDiscord(title, message, color)
             ["title"] = "**" .. title .. "**",
             ["description"] = message,
             ["footer"] = {
-                ["text"] = "Shoveling • " .. os.date("%d.%m.%Y klo %H:%M"),
+                ["text"] = "Digging • " .. os.date("%d.%m.%Y klo %H:%M"),
             },
         }
     }
 
     PerformHttpRequest(WebhookURL, function(err, text, headers) end, 'POST', json.encode({
-        username = "Shoveling Logs", 
+        username = "Digging Logs", 
         embeds = embed
     }), { ['Content-Type'] = 'application/json' })
 end
