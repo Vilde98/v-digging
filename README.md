@@ -1,4 +1,4 @@
-# Advanced Digging Script for QBCore
+# Advanced Digging Script for QBCore & QBOX
 
 A modern and versatile digging script for FiveM servers. This script utilizes `ox_lib` and `ox_inventory` to provide a smooth user experience, featuring item durability, minigames, and accurate ground detection.
 
