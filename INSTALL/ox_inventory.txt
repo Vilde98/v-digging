@@ -1,0 +1,9 @@
+['shovel'] = {
+        label = 'Shovel',
+        weight = 1000,
+        stack = false,
+        consume = 0,
+        client = {
+            export = 'v-shoveling.useShovel'
+        }
+    },
