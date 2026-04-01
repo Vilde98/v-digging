@@ -35,3 +35,6 @@ Ensure you have the following resources installed and started before using this 
 }
 ```
 5. Configure `config.lua` to your liking and set your Discord Webhook in `server/main.lua`.
+
+
+Discord: https://discord.gg/V5tqB6TnfX
